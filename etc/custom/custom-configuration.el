@@ -3,7 +3,9 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(before-save-hook nil)
  '(blink-matching-paren nil)
+ '(coffee-tab-width 4)
  '(dired-details-hide-link-targets nil)
  '(face-font-family-alternatives (quote (("mono" "dejavu" "fixed") ("courier" "CMU Typewriter Text" "fixed") ("Sans Serif" "helv" "helvetica" "arial" "fixed") ("helv" "helvetica" "arial" "fixed"))))
  '(face-font-selection-order (quote (:width :height :weight :slant)))
@@ -33,6 +35,8 @@
  '(org-startup-align-all-tables t)
  '(org-startup-folded nil)
  '(paren-highlight-at-point nil)
+ '(projectile-completion-system (quote helm))
+ '(projectile-globally-ignored-directories (quote (".idea" ".eunit" ".git" ".hg" ".fslckout" ".bzr" "_darcs" ".tox" ".svn" "build" ".ensime_cache")))
  '(sclang-auto-scroll-post-buffer t)
  '(sclang-eval-line-forward nil)
  '(show-paren-mode t)
@@ -68,11 +72,13 @@
  '(font-lock-type-face ((((class color) (min-colors 88) (background dark)) (:foreground "LightBlue"))))
  '(font-lock-variable-name-face ((((class color) (min-colors 88) (background dark)) (:foreground "yellow2"))))
  '(fringe ((t (:background "grey25"))))
+ '(helm-selection ((t (:background "ForestGreen" :foreground "yellow"))))
+ '(mode-line ((t (:background "blue" :foreground "white" :weight bold))))
+ '(mode-line-inactive ((default (:inherit mode-line)) (nil (:background "lightblue" :foreground "white"))))
  '(mumamo-background-chunk-major ((((class color) (background dark)) (:background "black"))))
  '(mumamo-background-chunk-submode1 ((((class color) (background dark)) (:background "black"))))
  '(paren-face-match ((t (:underline t))))
- '(show-paren-match ((t (:background "gold"))))
- '(show-paren-match-face ((t (:slant oblique :weight bold :background "gold")))))
+ '(show-paren-match ((t (:background "gold")))))
 
 
 ;;(custom-set-variables
