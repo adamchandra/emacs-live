@@ -34,6 +34,7 @@
  '(org-src-fontify-natively t)
  '(org-startup-align-all-tables t)
  '(org-startup-folded nil)
+ '(org-todo-keyword-faces (quote (("TODO" :foreground "red" :weight bold) ("NEXT" :foreground "yellow" :weight bold) ("DONE" :foreground "forest green" :weight bold) ("WAITING" :foreground "orange" :weight bold) ("HOLD" :foreground "magenta" :weight bold) ("CANCELLED" :foreground "forest green" :weight bold) ("PHONE" :foreground "forest green" :weight bold))))
  '(paren-highlight-at-point nil)
  '(projectile-completion-system (quote helm))
  '(projectile-globally-ignored-directories (quote (".idea" ".eunit" ".git" ".hg" ".fslckout" ".bzr" "_darcs" ".tox" ".svn" "build" ".ensime_cache")))
@@ -77,6 +78,7 @@
  '(mode-line-inactive ((default (:inherit mode-line)) (nil (:background "lightblue" :foreground "white"))))
  '(mumamo-background-chunk-major ((((class color) (background dark)) (:background "black"))))
  '(mumamo-background-chunk-submode1 ((((class color) (background dark)) (:background "black"))))
+ '(org-hide ((t (:foreground "heather"))))
  '(paren-face-match ((t (:underline t))))
  '(show-paren-match ((t (:background "gold")))))
 
