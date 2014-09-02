@@ -6,6 +6,7 @@
  '(before-save-hook nil)
  '(blink-matching-paren nil)
  '(coffee-tab-width 4)
+ '(deft-auto-save-interval 0.0)
  '(dired-details-hide-link-targets nil)
  '(face-font-family-alternatives (quote (("mono" "dejavu" "fixed") ("courier" "CMU Typewriter Text" "fixed") ("Sans Serif" "helv" "helvetica" "arial" "fixed") ("helv" "helvetica" "arial" "fixed"))))
  '(face-font-selection-order (quote (:width :height :weight :slant)))
