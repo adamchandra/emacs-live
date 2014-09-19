@@ -6,12 +6,17 @@
  '(before-save-hook nil)
  '(blink-matching-paren nil)
  '(coffee-tab-width 4)
+ '(cua-mode t nil (cua-base))
  '(deft-auto-save-interval 0.0)
  '(dired-details-hide-link-targets nil)
  '(face-font-family-alternatives (quote (("mono" "dejavu" "fixed") ("courier" "CMU Typewriter Text" "fixed") ("Sans Serif" "helv" "helvetica" "arial" "fixed") ("helv" "helvetica" "arial" "fixed"))))
  '(face-font-selection-order (quote (:width :height :weight :slant)))
  '(fill-column 100)
  '(focus-follows-mouse t)
+ '(git-gutter+-disabled-modes (quote (org)))
+ '(git-gutter+-modified-sign "*")
+ '(git-gutter+-separator-sign nil)
+ '(global-git-gutter+-mode t)
  '(haskell-notify-p t)
  '(haskell-process-type (quote ghci))
  '(haskell-stylish-on-save t)
@@ -57,6 +62,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(cua-rectangle ((t (:inherit region :background "blue1" :foreground "white"))))
  '(diff-added ((t (:foreground "Green"))))
  '(diff-removed ((t (:foreground "Red"))))
  '(ediff-even-diff-A ((((class color) (background dark)) (:background "dark green"))))
@@ -83,6 +89,7 @@
  '(mumamo-background-chunk-submode1 ((((class color) (background dark)) (:background "black"))))
  '(org-hide ((t (:foreground "heather"))))
  '(paren-face-match ((t (:underline t))))
+ '(region ((t (:background "DodgerBlue1"))))
  '(show-paren-match ((t (:background "gold")))))
 
 
