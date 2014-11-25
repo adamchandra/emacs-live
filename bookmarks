@@ -1,0 +1,15 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("scalaz-7"
+ (filename . "~/projects/the-livingroom/github-clones/type-level-scalas/scalaz-7/")
+ (front-context-string . "concurrent\n  -rw")
+ (rear-context-string . "96 Sep  2 21:54 ")
+ (position . 298))
+("org-capture-last-stored"
+ (filename . "~/projects/the-toolshed/emacsen/org-files/org-agenda/refile-agenda.org")
+ (front-context-string . "* TODO write spe")
+ (rear-context-string . "9-30 Tue 10:01]\n")
+ (position . 713))
+)
